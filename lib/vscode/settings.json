@@ -1,0 +1,110 @@
+{
+    "sync.gist": "938dd1175e681ef38a1bd2d807089420",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "search.exclude": {
+        "build/": true,
+        "temp/": true,
+        "library/": true,
+        "**/*.anim": true,
+        "**/*.md": true,
+        "**/*.atlas": true,
+    },
+    "files.exclude": {
+        "library/": true,
+        "local/": true,
+        "temp/": true,
+        "build/": true,
+        "packages/": true,
+        "settings/": true,
+        "**/.git": true,
+        "**/*.meta": true,
+        "**/*.prefab": true,
+        "**/*.anim": true,
+        "**/*.plist": true,
+        "**/*.fire": true,
+        "**/*.fnt": true,
+        "**/*.mp3": true,
+        "**/*.atlas": true,
+        "**/.DS_Store": true,
+        "**/*.*.meta": true,
+        "**/*.unity": true,
+        "**/*.unityproj": true,
+        "**/*.mat": true,
+        "**/*.fbx": true,
+        "**/*.FBX": true,
+        "**/*.tga": true,
+        "**/*.cubemap": true,
+        "**/Library": true,
+        "**/ProjectSettings": true,
+        "**/Temp": true
+    },
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.fontSize": 20, // 设置字体大小
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "files.autoGuessEncoding": true, // 自动识别文件编码
+    "files.trimTrailingWhitespace": true, // 自动删除文件行尾空格
+    "files.eol": "\n",
+    "security.workspace.trust.untrustedFiles": "open",
+    // 解决 terminal 中文乱码
+    "code-runner.executorMap": {
+        "python": "set PYTHONIOENCODING=utf8 && python"
+    },
+    // 全局路径
+    // "eslint.options": {
+    //     "overrideConfigFile": "D:\\nvm\\v12.0.0\\node_modules\\.eslintrc.js",
+    // },
+    // 保存时自动修复错误
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "terminal.integrated.bellDuration": 123456789,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "cSpell.userWords": [
+        "Addressables",
+        "Behaviour",
+        "ccclass",
+        "interactable",
+        "lerp",
+        "Mathf",
+        "Prefs",
+        "Raycasts",
+        "rtps",
+        "Tweener",
+        "Tweening",
+        "UGUI"
+    ],
+    "omnisharp.path": "latest",
+    // "omnisharp.useGlobalMono": "always",
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "#FF0000",
+        "background": "#FFFFFF",
+        "opacity": 50,
+        "iconColour": "#0000FF"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "#000000",
+            "iconColour": "#FFFF00",
+            "gutterIcon": true
+        }
+    },
+    "terminal.integrated.scrollback": 123456789,
+    "workbench.colorTheme": "One Dark Pro",
+    "window.commandCenter": true,
+    "editor.guides.bracketPairs": true,
+    "editor.stickyScroll.enabled": true,
+    "terminal.integrated.smoothScrolling": true,
+    "shaderlabformatter.indentation.conditionMacro": "normal",
+    "Lua.telemetry.enable": true,
+}
