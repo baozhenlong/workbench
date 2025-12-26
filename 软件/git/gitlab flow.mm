@@ -3,8 +3,8 @@
 <bookmarks>
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="git" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766569021673" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.5">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+<node TEXT="gitlab flow" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766729205693" LINK="工作流程.mm#ID_694466197" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.2">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -121,248 +121,221 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="概述" POSITION="bottom_or_right" ID="ID_1855956980" CREATED="1766570114268" MODIFIED="1766714132612" LINK="概述.mm#ID_100776476"/>
-<node TEXT="环境搭建" POSITION="bottom_or_right" ID="ID_1134488392" CREATED="1766569540806" MODIFIED="1766714109451" LINK="环境搭建.mm#ID_100776476"/>
-<node TEXT="基础" POSITION="bottom_or_right" ID="ID_189382903" CREATED="1766648017914" MODIFIED="1766714080825" LINK="基础.mm#ID_100776476"/>
-<node POSITION="top_or_left" ID="ID_815624844" CREATED="1766714289258" MODIFIED="1766714335721" LINK="分支.mm#ID_100776476"><richcontent TYPE="NODE">
+<node POSITION="bottom_or_right" ID="ID_674193363" CREATED="1766728914997" MODIFIED="1766728920277"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885942688-5781">
-      分支
+    <div xmind-vk-rich-text-fragment-id="1666885944086-213">
+      是 git flow 与 github flow 的综合
     </div>
   </body>
 </html>
 </richcontent>
 </node>
-<node POSITION="top_or_left" ID="ID_961974756" CREATED="1766720122263" MODIFIED="1766720367440" LINK="工作流程.mm#ID_100776476"><richcontent TYPE="NODE">
+<node POSITION="top_or_left" ID="ID_243737403" CREATED="1766728923485" MODIFIED="1766728925821"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885970488-6502">
-      工作流程
+    <div xmind-vk-rich-text-fragment-id="1666885952446-8398">
+      它吸取了两者的优点，既有适应不同开发环境的弹性，又有单一主分支的简单和便利
     </div>
   </body>
 </html>
 </richcontent>
 </node>
-<node TEXT="常见错误及解决方案" POSITION="top_or_left" ID="ID_75892635" CREATED="1766729230258" MODIFIED="1766729235805">
-<node ID="ID_1462297677" CREATED="1766729240524" MODIFIED="1766729240524"><richcontent TYPE="NODE">
+<node POSITION="top_or_left" ID="ID_812091367" CREATED="1766728940197" MODIFIED="1766728940197"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885935181-3646">
-      filename too long
+    <div xmind-vk-rich-text-fragment-id="1666885969262-612">
+      上游优先
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_1416004381" CREATED="1766729244141" MODIFIED="1766729244141"><richcontent TYPE="NODE">
+<node ID="ID_1601522036" CREATED="1766728942685" MODIFIED="1766728953023"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885938502-7154">
-      git config --global core.longpaths true
+    <div xmind-vk-rich-text-fragment-id="1666885971590-1016">
+      gitlab flow 的最大原则叫做上游优先，即只存在一个主分支 master，它是所有其他分支的上游。只有上游分支采纳的代码变化，才能应用到其他分支
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node ID="ID_1929205687" CREATED="1766729249957" MODIFIED="1766729249957"><richcontent TYPE="NODE">
+<node POSITION="top_or_left" ID="ID_237131834" CREATED="1766728960197" MODIFIED="1766728968815"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885944734-346">
-      Failed to connect to github.com port 443
+    <div xmind-vk-rich-text-fragment-id="1666885917159-9317">
+      gitlab 分成两种情况，适应不同的开发流程
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_1437954552" CREATED="1766729253972" MODIFIED="1766729253972"><richcontent TYPE="NODE">
+<node ID="ID_1237029744" CREATED="1766728976245" MODIFIED="1766728976245"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885947582-1466">
-      原因
+    <div xmind-vk-rich-text-fragment-id="1666885933878-2466">
+      持续发布
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_1115822039" CREATED="1766729258292" MODIFIED="1766729258292"><richcontent TYPE="NODE">
+<node ID="ID_557740474" CREATED="1766729010270" MODIFIED="1766729052229"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885952541-5771">
-      代理设置
+    <div xmind-vk-rich-text-fragment-id="1666885966638-1884">
+      对于持续发布的项目，它建议在 master 分支以外，再建立不同的环境分
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1607469016" CREATED="1766729052427" MODIFIED="1766729087923" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="图片/gitlab%20flow/持续发布.png"/>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_54604768" CREATED="1766729021492" MODIFIED="1766729021492"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885918921-145">
+      开发环境的分支是 master
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_64455277" CREATED="1766729041597" MODIFIED="1766729041597"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885939682-8568">
+      master 是 pre-production 的上游
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node ID="ID_392635733" CREATED="1766729263301" MODIFIED="1766729263301"><richcontent TYPE="NODE">
+<node ID="ID_1691753848" CREATED="1766729023717" MODIFIED="1766729023717"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885957990-6536">
-      解决方案
+    <div xmind-vk-rich-text-fragment-id="1666885921497-7506">
+      预发环境的分支是 pre-production
     </div>
   </body>
 </html>
 </richcontent>
-<node TEXT="" ID="ID_643114036" CREATED="1766729297367" MODIFIED="1766729297882">
-<icon BUILTIN="full-1"/>
-<node ID="ID_1440376620" CREATED="1766729307540" MODIFIED="1766729307540"><richcontent TYPE="NODE">
+<node ID="ID_1908115035" CREATED="1766729043733" MODIFIED="1766729043733"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885917137-7509">
-      取消代理
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1165396389" CREATED="1766729319509" MODIFIED="1766729319509"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885929424-4232">
-      git config --global --unset http.proxy
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_55742136" CREATED="1766729322156" MODIFIED="1766729322156"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885931480-152">
-      git config --global --unset https.proxy
+    <div xmind-vk-rich-text-fragment-id="1666885941618-2065">
+      pre-production 是 production 的上游
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-</node>
-<node TEXT="" ID="ID_64499136" CREATED="1766729298707" MODIFIED="1766729299531">
-<icon BUILTIN="full-2"/>
-<node ID="ID_1098178062" CREATED="1766729310141" MODIFIED="1766729310141"><richcontent TYPE="NODE">
+<node ID="ID_427304176" CREATED="1766729025789" MODIFIED="1766729025789"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885920073-384">
-      设置代理
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_331164672" CREATED="1766729324989" MODIFIED="1766729324989"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885934832-3630">
-      git config --global http.proxy 'http://127.0.0.1:7890'
+    <div xmind-vk-rich-text-fragment-id="1666885923713-7815">
+      生产环境的分支是 production
     </div>
   </body>
 </html>
 </richcontent>
 </node>
-<node ID="ID_1242875372" CREATED="1766729327484" MODIFIED="1766729327484"><richcontent TYPE="NODE">
+<node TEXT="代码的变化，必须由上游向下游发展" ID="ID_1539982463" CREATED="1766729114212" MODIFIED="1766729116290">
+<node ID="ID_755207090" CREATED="1766729121165" MODIFIED="1766729121165"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885937432-1313">
-      git config --global https.proxy 'http://127.0.0.1:7890'
+    <div xmind-vk-rich-text-fragment-id="1666885958825-704">
+      比如
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1926094006" CREATED="1766729123957" MODIFIED="1766729130813"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885961745-683">
+      生产环境出现了 bug，这时就要新建一个功能分支，先把它合并到 master，确认没有问题，再 cherry-pick 到 pre-production，这一步也没有问题，才进入 production
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-</node>
-<node TEXT="" ID="ID_1136109672" CREATED="1766729300762" MODIFIED="1766729301810">
-<icon BUILTIN="full-3"/>
-<node ID="ID_1488761216" CREATED="1766729312548" MODIFIED="1766729312548"><richcontent TYPE="NODE">
+<node ID="ID_673781453" CREATED="1766729147420" MODIFIED="1766729147420"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885922488-4325">
-      查看代理
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1829293451" CREATED="1766729329893" MODIFIED="1766729329893"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885939912-1371">
-      git config --global --get http.proxy
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1902840382" CREATED="1766729332084" MODIFIED="1766729332084"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885941920-7665">
-      git config --global --get https.proxy
+    <div xmind-vk-rich-text-fragment-id="1666885916677-2297">
+      只有紧急情况，才允许跳过上游，直接合并到下游分支
     </div>
   </body>
 </html>
@@ -371,202 +344,45 @@
 </node>
 </node>
 </node>
-</node>
-<node ID="ID_118411905" CREATED="1766729335284" MODIFIED="1766729335284"><richcontent TYPE="NODE">
+<node ID="ID_247489217" CREATED="1766728978524" MODIFIED="1766728978524"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885945224-1781">
-      this exceeds GitHub's file size limit of 100.00 MB
+    <div xmind-vk-rich-text-fragment-id="1666885936486-5786">
+      版本发布
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_608366775" CREATED="1766729339948" MODIFIED="1766729345413"><richcontent TYPE="NODE">
+<node ID="ID_300385546" CREATED="1766729152960" MODIFIED="1766729160264" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885949688-6426">
-      安装 git lfs
-    </div>
+    <img src="图片/gitlab%20flow/版本发布.png"/>
   </body>
 </html>
 </richcontent>
-<node ID="ID_1387434318" CREATED="1766729359956" MODIFIED="1766729366901"><richcontent TYPE="NODE">
+<node ID="ID_1691708883" CREATED="1766729166780" MODIFIED="1766729166780"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885959951-8533">
-      通过 git for windows 安装
-    </div>
-  </body>
-</html>
-</richcontent>
-<node TEXT="下载" ID="ID_946232279" CREATED="1766729378507" MODIFIED="1766729383961" LINK="https://git-scm.com/"/>
-<node ID="ID_424468492" CREATED="1766729386987" MODIFIED="1766729391476"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885932638-4143">
-      运行 git for windows 安装程序
+    <div xmind-vk-rich-text-fragment-id="1666885934933-5643">
+      对于版本发布的项目，建议的做法是每一个稳定版本，都要从 master 分支拉出一个分支，比如 2-3-stable、2-4-stable 等
     </div>
   </body>
 </html>
 </richcontent>
 </node>
-<node ID="ID_537459403" CREATED="1766729395532" MODIFIED="1766729395532"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885940830-9171">
-      勾选 &quot;Git LFS (Large File Support)&quot;
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_373381175" CREATED="1766729399292" MODIFIED="1766729407258" LINK="https://git-lfs.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885944926-9975">
-      通过安装包安装
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1562005384" CREATED="1766729412284" MODIFIED="1766729412284"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885957486-4902">
-      执行
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_717834787" CREATED="1766729420348" MODIFIED="1766729420348"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885965654-6920">
-      git lfs install
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node ID="ID_1000986871" CREATED="1766729417140" MODIFIED="1766729417140"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885962702-5751">
-      验证
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1543181918" CREATED="1766729438116" MODIFIED="1766729438116"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885917352-9978">
-      git lfs version
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_1430080840" CREATED="1766729440836" MODIFIED="1766729440836"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885919976-910">
-      配置文件扩展名
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1017696970" CREATED="1766729442756" MODIFIED="1766729442756"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885922056-735">
-      git lfs track &quot;*.psd&quot;
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_1828806399" CREATED="1766729444964" MODIFIED="1766729444964"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885924352-6777">
-      跟踪 .gitattributes 文件
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_413530343" CREATED="1766729447204" MODIFIED="1766729447204"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885926471-5306">
-      git add .gitattributes
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="以后，只有修补 bug，才允许将代码合并到这些分支，并且，并且此时要更新小版本号" ID="ID_379257930" CREATED="1766729179599" MODIFIED="1766729182983"/>
 </node>
 </node>
 </node>

@@ -3,8 +3,8 @@
 <bookmarks>
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="git" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766569021673" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.5">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+<node TEXT="储藏（Stash）" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766713750074" LINK="基础.mm#ID_1200965327" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.5">
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -121,203 +121,470 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="概述" POSITION="bottom_or_right" ID="ID_1855956980" CREATED="1766570114268" MODIFIED="1766714132612" LINK="概述.mm#ID_100776476"/>
-<node TEXT="环境搭建" POSITION="bottom_or_right" ID="ID_1134488392" CREATED="1766569540806" MODIFIED="1766714109451" LINK="环境搭建.mm#ID_100776476"/>
-<node TEXT="基础" POSITION="bottom_or_right" ID="ID_189382903" CREATED="1766648017914" MODIFIED="1766714080825" LINK="基础.mm#ID_100776476"/>
-<node POSITION="top_or_left" ID="ID_815624844" CREATED="1766714289258" MODIFIED="1766714335721" LINK="分支.mm#ID_100776476"><richcontent TYPE="NODE">
+<node TEXT="概述" POSITION="bottom_or_right" ID="ID_1827071773" CREATED="1766713791778" MODIFIED="1766713793358">
+<node ID="ID_562745648" CREATED="1766713793685" MODIFIED="1766713793685"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885942688-5781">
-      分支
+    <div xmind-vk-rich-text-fragment-id="1666885918519-9665">
+      在一个分支上操作之后，如果还没有将修改提交到分支上， 此时进行切换分支，那么另一个分支上也能看到新的修改
     </div>
   </body>
 </html>
 </richcontent>
-</node>
-<node POSITION="top_or_left" ID="ID_961974756" CREATED="1766720122263" MODIFIED="1766720367440" LINK="工作流程.mm#ID_100776476"><richcontent TYPE="NODE">
+<node ID="ID_857988998" CREATED="1766713799747" MODIFIED="1766713799747"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885970488-6502">
-      工作流程
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="常见错误及解决方案" POSITION="top_or_left" ID="ID_75892635" CREATED="1766729230258" MODIFIED="1766729235805">
-<node ID="ID_1462297677" CREATED="1766729240524" MODIFIED="1766729240524"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885935181-3646">
-      filename too long
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1416004381" CREATED="1766729244141" MODIFIED="1766729244141"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885938502-7154">
-      git config --global core.longpaths true
+    <div xmind-vk-rich-text-fragment-id="1666885926335-5958">
+      这是因为所有分支都共用一个工作区的缘故
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node ID="ID_1929205687" CREATED="1766729249957" MODIFIED="1766729249957"><richcontent TYPE="NODE">
+<node ID="ID_1512446475" CREATED="1766713802419" MODIFIED="1766713802419"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885944734-346">
-      Failed to connect to github.com port 443
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1437954552" CREATED="1766729253972" MODIFIED="1766729253972"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885947582-1466">
-      原因
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1115822039" CREATED="1766729258292" MODIFIED="1766729258292"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885952541-5771">
-      代理设置
+    <div xmind-vk-rich-text-fragment-id="1666885929135-2351">
+      可以使用 git stash 将当前分支的修改储藏起来， 此时当前工作区的所有修改都会被存到栈上， 也就是说当前工作区是干净的，没有任何未提交的修改
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node ID="ID_392635733" CREATED="1766729263301" MODIFIED="1766729263301"><richcontent TYPE="NODE">
+<node TEXT="指令" POSITION="bottom_or_right" ID="ID_1710968356" CREATED="1766713814180" MODIFIED="1766713815870">
+<node ID="ID_1152083137" CREATED="1766713819340" MODIFIED="1766713858868"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885957990-6536">
-      解决方案
+    <div xmind-vk-rich-text-fragment-id="1666885946071-7967">
+      git stash ['push message']
     </div>
   </body>
 </html>
 </richcontent>
-<node TEXT="" ID="ID_643114036" CREATED="1766729297367" MODIFIED="1766729297882">
+<node ID="ID_1329454283" CREATED="1766713823123" MODIFIED="1766713823123"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885949207-1684">
+      将仓库中的修改保存，建立一条 stash 信息，默认的说明信息是最后一次提交的节点号和提交说明
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1738173796" CREATED="1766713832483" MODIFIED="1766713859810"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885955591-1835">
+      'push message'
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_140167199" CREATED="1766713863899" MODIFIED="1766713863899"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885916853-7662">
+      指定说明信息
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1942163309" CREATED="1766713867579" MODIFIED="1766713867579"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885920629-8860">
+      git stash list
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_995032386" CREATED="1766713871061" MODIFIED="1766713871061"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885924045-729">
+      列出当前仓库下所有的 stash 条目，每一条 stash 用 stash@{n} 标识
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1886182848" CREATED="1766713874099" MODIFIED="1766713874099"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885927205-7195">
+      git stash apply [stashIndex]
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_390461242" CREATED="1766713876804" MODIFIED="1766713876804"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885929741-3751">
+      应用 stash 的内容（不从储藏中删除），默认应用最上面的那条，即 stash@{0}
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1403414677" CREATED="1766713881162" MODIFIED="1766713881162"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885934117-8299">
+      stashIndex
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_143612190" CREATED="1766713884612" MODIFIED="1766713884612"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885937110-521">
+      指定要应用的 stash 的条目，stash@{} 里面的数字
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_148512108" CREATED="1766713889659" MODIFIED="1766713889659"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885941789-9508">
+      git stash pop [stashIndex]
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1162570461" CREATED="1766713892900" MODIFIED="1766713892900"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885946013-6855">
+      应用 stash 的内容（从储藏中删除），默认弹出最上面的那条，即 stash@{0}
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1548587540" CREATED="1766713895691" MODIFIED="1766713895691"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885948726-3672">
+      stashIndex
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1484438261" CREATED="1766713898379" MODIFIED="1766713898379"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885951405-7673">
+      指定要弹出的 stash 的条目，stash@{} 里面的数字
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1258628724" CREATED="1766713900603" MODIFIED="1766713900603"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885953741-6969">
+      git stash drop [stashIndex]
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1134978394" CREATED="1766713903131" MODIFIED="1766713903131"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885956222-3754">
+      丢弃 stash 条目（从储藏中删除），默认丢弃最上面的那条，即 stash@{0}
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_524761559" CREATED="1766713905875" MODIFIED="1766713905875"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885959141-2599">
+      stashIndex
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1796960976" CREATED="1766713908027" MODIFIED="1766713908027"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885961285-3537">
+      指定要丢弃的 stash 的条目，stash@{} 里面的数字
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1284085745" CREATED="1766713913867" MODIFIED="1766713913867"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885963973-7019">
+      git stash clear
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1020397050" CREATED="1766713916683" MODIFIED="1766713916683"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885969717-8856">
+      清除所有的 stash 条目
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1457262192" CREATED="1766713920515" MODIFIED="1766713920515"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885973078-7625">
+      git stash show [-p] [stashIndex]
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_701854398" CREATED="1766713923859" MODIFIED="1766713923859"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885916143-58">
+      查看 stash 的内容
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1797217773" CREATED="1766713928035" MODIFIED="1766713928035"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885920847-3949">
+      -p
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1557158327" CREATED="1766713930827" MODIFIED="1766713930827"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885923495-6620">
+      详细内容
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1169401976" CREATED="1766713934419" MODIFIED="1766713934419"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885926871-5086">
+      stashIndex
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_617088868" CREATED="1766713937347" MODIFIED="1766713937347"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885929863-9831">
+      指定要查询的 stash 的条目，stash@{} 里面的数字
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node POSITION="top_or_left" ID="ID_1003280125" CREATED="1766713943251" MODIFIED="1766713943251"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885935871-3698">
+      找回误删的 stash
+    </div>
+  </body>
+</html>
+</richcontent>
+<node TEXT="" ID="ID_1147544101" CREATED="1766713949721" MODIFIED="1766713977141">
 <icon BUILTIN="full-1"/>
-<node ID="ID_1440376620" CREATED="1766729307540" MODIFIED="1766729307540"><richcontent TYPE="NODE">
+<node ID="ID_583797617" CREATED="1766713981298" MODIFIED="1766713981298"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885917137-7509">
-      取消代理
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1165396389" CREATED="1766729319509" MODIFIED="1766729319509"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885929424-4232">
-      git config --global --unset http.proxy
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_55742136" CREATED="1766729322156" MODIFIED="1766729322156"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885931480-152">
-      git config --global --unset https.proxy
+    <div xmind-vk-rich-text-fragment-id="1666885973655-6654">
+      git fsck --lost-found
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-</node>
-<node TEXT="" ID="ID_64499136" CREATED="1766729298707" MODIFIED="1766729299531">
+<node TEXT="" ID="ID_502510538" CREATED="1766713984404" MODIFIED="1766713986849">
 <icon BUILTIN="full-2"/>
-<node ID="ID_1098178062" CREATED="1766729310141" MODIFIED="1766729310141"><richcontent TYPE="NODE">
+<node ID="ID_1352303691" CREATED="1766713990274" MODIFIED="1766713990274"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885920073-384">
-      设置代理
+    <div xmind-vk-rich-text-fragment-id="1666885915976-9971">
+      找到对应的 commit
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_331164672" CREATED="1766729324989" MODIFIED="1766729324989"><richcontent TYPE="NODE">
+<node ID="ID_1798858627" CREATED="1766713993458" MODIFIED="1766713993458"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885934832-3630">
-      git config --global http.proxy 'http://127.0.0.1:7890'
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1242875372" CREATED="1766729327484" MODIFIED="1766729327484"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885937432-1313">
-      git config --global https.proxy 'http://127.0.0.1:7890'
+    <div xmind-vk-rich-text-fragment-id="1666885918576-2773">
+      git show commit
     </div>
   </body>
 </html>
@@ -325,248 +592,21 @@
 </node>
 </node>
 </node>
-<node TEXT="" ID="ID_1136109672" CREATED="1766729300762" MODIFIED="1766729301810">
+<node TEXT="" ID="ID_1803123946" CREATED="1766713994782" MODIFIED="1766714005041">
 <icon BUILTIN="full-3"/>
-<node ID="ID_1488761216" CREATED="1766729312548" MODIFIED="1766729312548"><richcontent TYPE="NODE">
+<node ID="ID_998013294" CREATED="1766714008890" MODIFIED="1766714008890"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1666885922488-4325">
-      查看代理
+    <div xmind-vk-rich-text-fragment-id="1666885933680-3915">
+      git stash apply commit
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_1829293451" CREATED="1766729329893" MODIFIED="1766729329893"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885939912-1371">
-      git config --global --get http.proxy
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1902840382" CREATED="1766729332084" MODIFIED="1766729332084"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885941920-7665">
-      git config --global --get https.proxy
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node ID="ID_118411905" CREATED="1766729335284" MODIFIED="1766729335284"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885945224-1781">
-      this exceeds GitHub's file size limit of 100.00 MB
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_608366775" CREATED="1766729339948" MODIFIED="1766729345413"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885949688-6426">
-      安装 git lfs
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1387434318" CREATED="1766729359956" MODIFIED="1766729366901"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885959951-8533">
-      通过 git for windows 安装
-    </div>
-  </body>
-</html>
-</richcontent>
-<node TEXT="下载" ID="ID_946232279" CREATED="1766729378507" MODIFIED="1766729383961" LINK="https://git-scm.com/"/>
-<node ID="ID_424468492" CREATED="1766729386987" MODIFIED="1766729391476"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885932638-4143">
-      运行 git for windows 安装程序
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_537459403" CREATED="1766729395532" MODIFIED="1766729395532"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885940830-9171">
-      勾选 &quot;Git LFS (Large File Support)&quot;
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_373381175" CREATED="1766729399292" MODIFIED="1766729407258" LINK="https://git-lfs.com/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885944926-9975">
-      通过安装包安装
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1562005384" CREATED="1766729412284" MODIFIED="1766729412284"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885957486-4902">
-      执行
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_717834787" CREATED="1766729420348" MODIFIED="1766729420348"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885965654-6920">
-      git lfs install
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node ID="ID_1000986871" CREATED="1766729417140" MODIFIED="1766729417140"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885962702-5751">
-      验证
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1543181918" CREATED="1766729438116" MODIFIED="1766729438116"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885917352-9978">
-      git lfs version
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_1430080840" CREATED="1766729440836" MODIFIED="1766729440836"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885919976-910">
-      配置文件扩展名
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1017696970" CREATED="1766729442756" MODIFIED="1766729442756"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885922056-735">
-      git lfs track &quot;*.psd&quot;
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_1828806399" CREATED="1766729444964" MODIFIED="1766729444964"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885924352-6777">
-      跟踪 .gitattributes 文件
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_413530343" CREATED="1766729447204" MODIFIED="1766729447204"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1666885926471-5306">
-      git add .gitattributes
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
 </node>
 </node>
 </node>

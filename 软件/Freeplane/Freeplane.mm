@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="freeplane" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766563896941" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES"><hook NAME="MapStyle" background="#ecf4f9ff">
+<node TEXT="freeplane" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766563896941" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.2">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="file:/C:/Users/Administrator/Desktop/仿XMind：稳重%20V3.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -124,120 +124,6 @@
 <node TEXT="官网" POSITION="bottom_or_right" ID="ID_737779140" CREATED="1766398586669" MODIFIED="1766398605775" LINK="https://docs.freeplane.org/"/>
 <node TEXT="环境搭建" POSITION="bottom_or_right" ID="ID_1987649365" CREATED="1766398618292" MODIFIED="1766398621536">
 <node TEXT="下载" ID="ID_1209557289" CREATED="1766398631604" MODIFIED="1766398659334" LINK="https://sourceforge.net/projects/freeplane/files/"/>
-<node ID="ID_1746838282" CREATED="1766399073676" MODIFIED="1766399073676"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766399070999-2006">
-      菜单栏 ➡️ 视图 ➡️ 工具提示
-    </div>
-  </body>
-</html>
-</richcontent>
-<node TEXT="☑️" ID="ID_931771369" CREATED="1766399185877" MODIFIED="1766399188294">
-<node ID="ID_1881558224" CREATED="1766399198527" MODIFIED="1766399198527"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766399196108-6340">
-      显示节点的工具提示
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1932338004" CREATED="1766399201781" MODIFIED="1766399201781"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766399200748-531">
-      在工具提示中显示节点的样式
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_505022502" CREATED="1766399207406" MODIFIED="1766399207406"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766399205621-4228">
-      显示修改时间
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node ID="ID_703282075" CREATED="1766457599859" MODIFIED="1766457599859"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766457593504-3928">
-      菜单栏 ➡️ 工具 ➡️ 首选项...
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1103799742" CREATED="1766457610167" MODIFIED="1766457610167"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766457608885-3239">
-      外观
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_322490398" CREATED="1766457617786" MODIFIED="1766457617786"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766457613577-340">
-      文本宽度
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_995447741" CREATED="1766457622182" MODIFIED="1766457622182"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766457620281-6112">
-      500
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
 <node ID="ID_607371449" CREATED="1766457629948" MODIFIED="1766457629948"><richcontent TYPE="NODE">
 
 <html>
@@ -251,7 +137,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_834906624" CREATED="1766457633724" MODIFIED="1766457633724"><richcontent TYPE="NODE">
+<node ID="ID_834906624" CREATED="1766457633724" MODIFIED="1766651680492"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -406,6 +292,149 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1746838282" CREATED="1766399073676" MODIFIED="1766399073676"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766399070999-2006">
+      菜单栏 ➡️ 视图 ➡️ 工具提示
+    </div>
+  </body>
+</html>
+</richcontent>
+<node TEXT="☑️" ID="ID_931771369" CREATED="1766399185877" MODIFIED="1766399188294">
+<node ID="ID_1881558224" CREATED="1766399198527" MODIFIED="1766399198527"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766399196108-6340">
+      显示节点的工具提示
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1932338004" CREATED="1766399201781" MODIFIED="1766399201781"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766399200748-531">
+      在工具提示中显示节点的样式
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_505022502" CREATED="1766399207406" MODIFIED="1766399207406"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766399205621-4228">
+      显示修改时间
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_703282075" CREATED="1766457599859" MODIFIED="1766652054122"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766457593504-3928">
+      菜单栏 ➡️ 工具 ➡️ 首选项...
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1103799742" CREATED="1766457610167" MODIFIED="1766457610167"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766457608885-3239">
+      外观
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_322490398" CREATED="1766457617786" MODIFIED="1766457617786"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766457613577-340">
+      文本宽度
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_995447741" CREATED="1766457622182" MODIFIED="1766457622182"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766457620281-6112">
+      500
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="环境" ID="ID_670250506" CREATED="1766650128510" MODIFIED="1766650132886">
+<node TEXT="文件" ID="ID_761921333" CREATED="1766650134777" MODIFIED="1766650137376">
+<node TEXT="标准模板文件" ID="ID_1994595587" CREATED="1766650138591" MODIFIED="1766650154280"/>
+</node>
+<node TEXT="超链接类型" ID="ID_1163646418" CREATED="1766650177125" MODIFIED="1766650181078">
+<node TEXT="链接" ID="ID_241555727" CREATED="1766650181438" MODIFIED="1766650183318">
+<node TEXT="相对" ID="ID_842569052" CREATED="1766650183600" MODIFIED="1766650193381">
+<node TEXT="勾选" ID="ID_748254429" CREATED="1766650193584" MODIFIED="1766650195192"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="行为" ID="ID_1942393410" CREATED="1766720296898" MODIFIED="1766720298712">
+<node TEXT="在内部点击时折叠" ID="ID_713108272" CREATED="1766720298986" MODIFIED="1766720304981">
+<node TEXT="取消勾选" ID="ID_663082169" CREATED="1766720305251" MODIFIED="1766720310037">
+<node TEXT="禁用点击就折叠或展开节点" ID="ID_1182165428" CREATED="1766720314303" MODIFIED="1766720323823"/>
+</node>
+</node>
+</node>
+<node TEXT="插件" ID="ID_54728542" CREATED="1766652136117" MODIFIED="1766652137699">
+<node TEXT="Scripting" ID="ID_1723169593" CREATED="1766652058208" MODIFIED="1766652148730">
+<node TEXT="启用脚本执行" ID="ID_833488517" CREATED="1766652143995" MODIFIED="1766652155025">
+<node TEXT="是" ID="ID_69501762" CREATED="1766652155378" MODIFIED="1766652156811"/>
+</node>
+<node TEXT="允许文件操作" ID="ID_321431303" CREATED="1766652159351" MODIFIED="1766652166751">
+<node TEXT="勾选" ID="ID_1072155124" CREATED="1766652166982" MODIFIED="1766652171612"/>
+</node>
 </node>
 </node>
 </node>
@@ -2170,6 +2199,31 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="使用链接锚" ID="ID_315521684" CREATED="1766656186243" MODIFIED="1766656205517">
+<node TEXT="选中节点 ➡️ 右键单击 ➡️ 插入 ➡️ 新增超连结" ID="ID_1712723802" CREATED="1766656478473" MODIFIED="1766656578359">
+<node ID="ID_1927547241" CREATED="1766656578695" MODIFIED="1766656578695"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      设定链接锚
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="用于被其他节点链接" ID="ID_1275074066" CREATED="1766656597365" MODIFIED="1766656624037"/>
+</node>
+<node TEXT="从锚点建立链接" ID="ID_234073247" CREATED="1766656625155" MODIFIED="1766656657722">
+<node TEXT="锚点链接到当前节点" ID="ID_62639995" CREATED="1766656642505" MODIFIED="1766656696448"/>
+</node>
+<node TEXT="建立链接到锚点" ID="ID_1186002752" CREATED="1766656633200" MODIFIED="1766656640900">
+<node TEXT="当前节点链接到锚点" ID="ID_401129472" CREATED="1766656697681" MODIFIED="1766656704483"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="缩放" POSITION="bottom_or_right" ID="ID_1919818846" CREATED="1766399239488" MODIFIED="1766399244926">
 <node TEXT="放大" ID="ID_1022711922" CREATED="1766399245246" MODIFIED="1766399247973">
@@ -2177,6 +2231,18 @@
 </node>
 <node TEXT="缩小" ID="ID_1992249694" CREATED="1766399255830" MODIFIED="1766399258896">
 <node TEXT="Alt + ⬇️" ID="ID_1969243468" CREATED="1766399259177" MODIFIED="1766399263565"/>
+</node>
+</node>
+<node TEXT="脚本" POSITION="top_or_left" ID="ID_573421373" CREATED="1766651943005" MODIFIED="1766651945016">
+<node TEXT="设置" ID="ID_1774134030" CREATED="1766652530613" MODIFIED="1766652539886" LINK="#ID_1723169593"/>
+<node TEXT="脚本目录" ID="ID_108337724" CREATED="1766651947208" MODIFIED="1766651957072">
+<node TEXT="菜单栏 ➡️ 工具 ➡️ 打开用户目录 ➡️ scripts" ID="ID_270457072" CREATED="1766651957399" MODIFIED="1766652003606"/>
+</node>
+<node TEXT="执行脚本" ID="ID_1751817011" CREATED="1766652042687" MODIFIED="1766652212018">
+<node TEXT="在选定节点上执行脚本" ID="ID_1415655147" CREATED="1766652554698" MODIFIED="1766652563300">
+<node TEXT="选中要执行脚本的节点" ID="ID_1145714713" CREATED="1766652563689" MODIFIED="1766652575090"/>
+<node TEXT="右键单击 ➡️ 脚本 ➡️ 左键单击要执行的脚本" ID="ID_1122375101" CREATED="1766652575520" MODIFIED="1766652604655"/>
+</node>
 </node>
 </node>
 </node>
