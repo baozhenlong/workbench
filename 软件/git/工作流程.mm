@@ -4,7 +4,7 @@
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
 <node TEXT="工作流程" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766720363853" LINK="git.mm#ID_961974756" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.5">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -273,7 +273,7 @@
 <node TEXT="导航" POSITION="bottom_or_right" ID="ID_1048340651" CREATED="1766647565489" MODIFIED="1766647570349">
 <node TEXT="主页" ID="ID_401275652" CREATED="1766647576271" MODIFIED="1766647633520" LINK="git.mm"/>
 <node TEXT="上一页" ID="ID_1373541976" CREATED="1766647578832" MODIFIED="1766720405370" LINK="分支.mm"/>
-<node TEXT="下一页" ID="ID_944958973" CREATED="1766647582474" MODIFIED="1766720392815" LINK="工作流程.mm"/>
+<node TEXT="下一页" ID="ID_944958973" CREATED="1766647582474" MODIFIED="1766742208869" LINK="git%20lfs.mm"/>
 </node>
 </node>
 </map>
