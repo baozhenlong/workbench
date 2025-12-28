@@ -150,7 +150,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_801524784" CREATED="1766457732164" MODIFIED="1766457732164" LINK="https://gitcode.com/gh_mirrors/fr/Freeplane-MindMap-Template"><richcontent TYPE="NODE">
+<node ID="ID_801524784" CREATED="1766457732164" MODIFIED="1766802182599" LINK="https://github.com/Seekladoom/Freeplane-MindMap-Template"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -158,7 +158,7 @@
   </head>
   <body>
     <div xmind-vk-rich-text-fragment-id="1766457731144-6625">
-      git clone https://gitcode.com/gh_mirrors/fr/Freeplane-MindMap-Template
+      <span style="color: #000000;">git clone https://github.com/Seekladoom/Freeplane-MindMap-Template</span>
     </div>
   </body>
 </html>
@@ -323,34 +323,6 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_1932338004" CREATED="1766399201781" MODIFIED="1766399201781"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766399200748-531">
-      在工具提示中显示节点的样式
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_505022502" CREATED="1766399207406" MODIFIED="1766399207406"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766399205621-4228">
-      显示修改时间
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
 </node>
 </node>
 <node ID="ID_703282075" CREATED="1766457599859" MODIFIED="1766652054122"><richcontent TYPE="NODE">
@@ -366,6 +338,18 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="环境" ID="ID_670250506" CREATED="1766650128510" MODIFIED="1766650132886">
+<node TEXT="文件" ID="ID_761921333" CREATED="1766650134777" MODIFIED="1766650137376">
+<node TEXT="标准模板文件" ID="ID_1994595587" CREATED="1766650138591" MODIFIED="1766650154280"/>
+</node>
+<node TEXT="超链接类型" ID="ID_1163646418" CREATED="1766650177125" MODIFIED="1766650181078">
+<node TEXT="链接" ID="ID_241555727" CREATED="1766650181438" MODIFIED="1766650183318">
+<node TEXT="相对" ID="ID_842569052" CREATED="1766650183600" MODIFIED="1766650193381">
+<node TEXT="☑️" ID="ID_1747161012" CREATED="1766652166982" MODIFIED="1766889285122"/>
+</node>
+</node>
+</node>
+</node>
 <node ID="ID_1103799742" CREATED="1766457610167" MODIFIED="1766457610167"><richcontent TYPE="NODE">
 
 <html>
@@ -392,7 +376,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_995447741" CREATED="1766457622182" MODIFIED="1766457622182"><richcontent TYPE="NODE">
+<node ID="ID_995447741" CREATED="1766457622182" MODIFIED="1766800575062"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -400,23 +384,11 @@
   </head>
   <body>
     <div xmind-vk-rich-text-fragment-id="1766457620281-6112">
-      500
+      600
     </div>
   </body>
 </html>
 </richcontent>
-</node>
-</node>
-</node>
-<node TEXT="环境" ID="ID_670250506" CREATED="1766650128510" MODIFIED="1766650132886">
-<node TEXT="文件" ID="ID_761921333" CREATED="1766650134777" MODIFIED="1766650137376">
-<node TEXT="标准模板文件" ID="ID_1994595587" CREATED="1766650138591" MODIFIED="1766650154280"/>
-</node>
-<node TEXT="超链接类型" ID="ID_1163646418" CREATED="1766650177125" MODIFIED="1766650181078">
-<node TEXT="链接" ID="ID_241555727" CREATED="1766650181438" MODIFIED="1766650183318">
-<node TEXT="相对" ID="ID_842569052" CREATED="1766650183600" MODIFIED="1766650193381">
-<node TEXT="勾选" ID="ID_748254429" CREATED="1766650193584" MODIFIED="1766650195192"/>
-</node>
 </node>
 </node>
 </node>
@@ -433,7 +405,7 @@
 <node TEXT="是" ID="ID_69501762" CREATED="1766652155378" MODIFIED="1766652156811"/>
 </node>
 <node TEXT="允许文件操作" ID="ID_321431303" CREATED="1766652159351" MODIFIED="1766652166751">
-<node TEXT="勾选" ID="ID_1072155124" CREATED="1766652166982" MODIFIED="1766652171612"/>
+<node TEXT="☑️" ID="ID_1072155124" CREATED="1766652166982" MODIFIED="1766889285122"/>
 </node>
 </node>
 </node>
@@ -565,20 +537,8 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_1708813252" CREATED="1766457985801" MODIFIED="1766457985801"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766457984836-1794">
-      勾选
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_217276373" CREATED="1766457988147" MODIFIED="1766457988147"><richcontent TYPE="NODE">
+<node TEXT="☑️" ID="ID_1104905654" CREATED="1766889311407" MODIFIED="1766889317452">
+<node ID="ID_1215720430" CREATED="1766457988147" MODIFIED="1766889319509"><richcontent TYPE="NODE">
 
 <html>
   <head>

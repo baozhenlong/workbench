@@ -123,7 +123,8 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="概述" POSITION="bottom_or_right" ID="ID_1319625619" CREATED="1766647391808" MODIFIED="1766647393366">
 <node TEXT="安装" ID="ID_244589187" CREATED="1766646649722" MODIFIED="1766646652181">
-<node TEXT="下载" ID="ID_1877152575" CREATED="1766646666618" MODIFIED="1766646697026" LINK="https://git-scm.com/download/win"/>
+<node TEXT="git" ID="ID_1877152575" CREATED="1766646666618" MODIFIED="1766828430192" LINK="https://git-scm.com/download/win"/>
+<node TEXT="tortoisegit" ID="ID_1183276746" CREATED="1766828423289" MODIFIED="1766828445755" LINK="https://tortoisegit.org/"/>
 </node>
 <node ID="ID_602183934" CREATED="1766647394267" MODIFIED="1766647394267"><richcontent TYPE="NODE">
 
@@ -518,7 +519,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_47375703" CREATED="1766647005108" MODIFIED="1766647005108"><richcontent TYPE="NODE">
+<node ID="ID_47375703" CREATED="1766647005108" MODIFIED="1766838043267"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -526,7 +527,7 @@
   </head>
   <body>
     <div xmind-vk-rich-text-fragment-id="1666885971017-5052">
-      git config --global user.name &quot;damon&quot;
+      git config --global user.name &quot;EmotionalDamon&quot;
     </div>
   </body>
 </html>
@@ -546,7 +547,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_1650463462" CREATED="1766647013374" MODIFIED="1766647013374" LINK="mailto:435801541@qq.com&amp;quot"><richcontent TYPE="NODE">
+<node ID="ID_1650463462" CREATED="1766647013374" MODIFIED="1766838049644"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -574,7 +575,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_1922838242" CREATED="1766647058219" MODIFIED="1766647058219"><richcontent TYPE="NODE">
+<node ID="ID_1922838242" CREATED="1766647058219" MODIFIED="1766838116571"><richcontent TYPE="NODE">
 
 <html>
   <head>
