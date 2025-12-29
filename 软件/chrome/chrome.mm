@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="chrome" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766889544794" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="2.0">
+<node TEXT="chrome" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766889544794" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.2">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="template:/模板.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -127,6 +127,51 @@
 <node TEXT="搜索引擎" ID="ID_215596275" CREATED="1766889005999" MODIFIED="1766889009822"/>
 <node TEXT="隐私与安全" ID="ID_1266098637" CREATED="1766889071234" MODIFIED="1766889084500">
 <node TEXT="广告隐私权设置" ID="ID_1647661951" CREATED="1766889352141" MODIFIED="1766889360640"/>
+</node>
+</node>
+</node>
+<node TEXT="开发者工具" POSITION="bottom_or_right" ID="ID_1878958590" CREATED="1766988473048" MODIFIED="1766988494694" LINK="开发者工具.mm#ID_100776476"/>
+<node TEXT="console" POSITION="bottom_or_right" ID="ID_1212349276" CREATED="1766988504403" MODIFIED="1766988525951" LINK="console.mm#ID_100776476"/>
+<node TEXT="使用 inspector 调试 node.js" POSITION="bottom_or_right" ID="ID_657941480" CREATED="1766987946240" MODIFIED="1766988453679" LINK="使用%20inspector%20调试%20node.js.mm#ID_100776476"/>
+<node POSITION="top_or_left" ID="ID_13296213" CREATED="1766987923225" MODIFIED="1766987923225"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885915847-2171">
+      插件
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_82574555" CREATED="1766987925698" MODIFIED="1766987925698"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885918519-7422">
+      跨域插件
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_117177422" CREATED="1766987927745" MODIFIED="1766987927745"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1666885920567-8911">
+      Allow CORS: Access-Control-Allow-Origin
+    </div>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

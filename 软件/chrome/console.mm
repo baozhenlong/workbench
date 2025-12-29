@@ -3,7 +3,7 @@
 <bookmarks>
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
-<node TEXT="开发者工具" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766988490807" LINK="chrome.mm#ID_1878958590" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.5">
+<node TEXT="console" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766988522003" LINK="chrome.mm#ID_1212349276" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.5">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="template:/模板.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
@@ -121,364 +121,100 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="打开" POSITION="bottom_or_right" ID="ID_388200123" CREATED="1601782742280" MODIFIED="1766889792198">
-<node TEXT="F12" ID="ID_1951936460" CREATED="1766889792484" MODIFIED="1766889797431"/>
-<node TEXT="Ctrl + Shift + I" ID="ID_437629713" CREATED="1766889797821" MODIFIED="1766889808493"/>
-</node>
-<node POSITION="top_or_left" ID="ID_1194559704" CREATED="1766889817435" MODIFIED="1766889817435"><richcontent TYPE="NODE">
+<node TEXT="debugger" POSITION="bottom_or_right" ID="ID_388200123" CREATED="1601782742280" MODIFIED="1766987837015">
+<node ID="ID_1360618815" CREATED="1766987840083" MODIFIED="1766987840083"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1766889816599-4196">
-      Element
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1672609251" CREATED="1766889822512" MODIFIED="1766889822512"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766889821643-9238">
-      用来查看界面元素
+    <div xmind-vk-rich-text-fragment-id="1666885917284-2483">
+      程序运行到 debugger 代码处，就会自动停止运行
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node POSITION="top_or_left" ID="ID_1235084658" CREATED="1766889825667" MODIFIED="1766889825667"><richcontent TYPE="NODE">
+<node POSITION="top_or_left" ID="ID_1307384485" CREATED="1766987842489" MODIFIED="1766987842489"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1766889824554-5400">
-      Console
+    <div xmind-vk-rich-text-fragment-id="1666885919517-1762">
+      console.trace(tip)
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_1369324246" CREATED="1766889828467" MODIFIED="1766889828467"><richcontent TYPE="NODE">
+<node ID="ID_454782668" CREATED="1766987845097" MODIFIED="1766987845097"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1766889827367-581">
-      打开
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1594858774" CREATED="1766889830834" MODIFIED="1766889830834"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766889830023-1881">
-      Esc
+    <div xmind-vk-rich-text-fragment-id="1666885922421-6236">
+      输出函数调用的堆栈
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node ID="ID_980407318" CREATED="1766889833500" MODIFIED="1766889833500"><richcontent TYPE="NODE">
+<node POSITION="top_or_left" ID="ID_1165553356" CREATED="1766987848369" MODIFIED="1766987848369"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1766889832909-8706">
-      清空控制台
+    <div xmind-vk-rich-text-fragment-id="1666885925084-497">
+      console.table(obj)
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_807944140" CREATED="1766889835628" MODIFIED="1766889835628"><richcontent TYPE="NODE">
+<node ID="ID_288234825" CREATED="1766987853521" MODIFIED="1766987853521"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1766889834890-1378">
-      Ctrl + L
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node POSITION="top_or_left" ID="ID_627210361" CREATED="1766889847580" MODIFIED="1766902422516" VGAP_QUANTITY="2 pt"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766889845535-2574">
-      Sources
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_714325574" CREATED="1766889853169" MODIFIED="1766889853169"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766889851929-4126">
-      网页的资料文件
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1201837581" CREATED="1766889864154" MODIFIED="1766889864154"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766889863174-3521">
-      确保打开 Source Map
-    </div>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Settings ➡️ Preference ➡️ Sources" ID="ID_1846829086" CREATED="1766889868401" MODIFIED="1766889919648">
-<node TEXT="☑️" POSITION="bottom_or_right" ID="ID_1419861472" CREATED="1766889933600" MODIFIED="1766889935245">
-<node TEXT="Enable JavaScript source maps" ID="ID_1932944267" CREATED="1766889920797" MODIFIED="1766889933013"/>
-</node>
-</node>
-</node>
-</node>
-<node ID="ID_1168511893" CREATED="1766902364522" MODIFIED="1766902364522"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902359353-2991">
-      在项目中定位文件
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1714266773" CREATED="1766902378695" MODIFIED="1766902378695"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902377821-9661">
-      Ctrl + P
+    <div xmind-vk-rich-text-fragment-id="1666885930452-7781">
+      把一个对象按表格形式输出
     </div>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node ID="ID_11424157" CREATED="1766902375753" MODIFIED="1766902375753"><richcontent TYPE="NODE">
+<node POSITION="top_or_left" ID="ID_1627353456" CREATED="1766987856345" MODIFIED="1766987856345"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1766902374621-9049">
-      在文件中定位成员函数
+    <div xmind-vk-rich-text-fragment-id="1666885933421-9942">
+      console.time() 和 console.timeEnd()
     </div>
   </body>
 </html>
 </richcontent>
-<node ID="ID_1318651869" CREATED="1766902380869" MODIFIED="1766902380869"><richcontent TYPE="NODE">
+<node ID="ID_1243030564" CREATED="1766987858513" MODIFIED="1766987858513"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <div xmind-vk-rich-text-fragment-id="1766902380104-9349">
-      Ctrl + Shift + O
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node ID="ID_1342202835" CREATED="1766902415495" MODIFIED="1766980168731" MAX_WIDTH="25 cm"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="图片/开发者工具/sources.png"/>
-  </body>
-</html>
-</richcontent>
-<node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_1281406633" CREATED="1766902423472" MODIFIED="1766902426255">
-<node TEXT="文件导航器" ID="ID_1342821851" CREATED="1766902430067" MODIFIED="1766902434106"/>
-</node>
-<node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_1053924493" CREATED="1766902426575" MODIFIED="1766902427506">
-<node ID="ID_1003449553" CREATED="1766902437068" MODIFIED="1766902437068"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902436016-3459">
-      代码编辑器
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_323362295" CREATED="1766902443026" MODIFIED="1766902443026"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902442232-2251">
-      在文件导航器中选择文件后，该文件的内容将显示在此处
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node TEXT="3" OBJECT="java.lang.Long|3" ID="ID_1316142827" CREATED="1766902427951" MODIFIED="1766902428636">
-<node ID="ID_443268531" CREATED="1766902439318" MODIFIED="1766902439318"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902438426-5417">
-      JavaScript 调试
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1108563218" CREATED="1766902445749" MODIFIED="1766902445749"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902445093-8557">
-      用于检查页面 JavaScript 的各种工具
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node POSITION="top_or_left" ID="ID_51236039" CREATED="1766902457675" MODIFIED="1766902457675"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902456098-677">
-      Network
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1776055076" CREATED="1766902459929" MODIFIED="1766902459929"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902459036-3027">
-      数据的请求信息
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_1328118617" CREATED="1766902461782" MODIFIED="1766902467750"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902461059-813">
-      联网的游戏经常用到，比如查看一些 http 请求
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-<node POSITION="top_or_left" ID="ID_1460068271" CREATED="1766902472463" MODIFIED="1766902472463"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902470992-349">
-      Performance
-    </div>
-  </body>
-</html>
-</richcontent>
-<node ID="ID_933785398" CREATED="1766902474904" MODIFIED="1766902474904"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902473837-3519">
-      运行的实时表现
-    </div>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1296208893" CREATED="1766902477643" MODIFIED="1766902477643"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <div xmind-vk-rich-text-fragment-id="1766902476600-8612">
-      按两下 Ctrl + E 来得到一段时间内游戏运行实时表现，可以分析各个模块耗时多少，针对性地提高游戏性能
+    <div xmind-vk-rich-text-fragment-id="1666885935901-7864">
+      得到一段代码的执行时间
     </div>
   </body>
 </html>

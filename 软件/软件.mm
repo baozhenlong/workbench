@@ -121,7 +121,7 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="谷歌浏览器" POSITION="bottom_or_right" ID="ID_248317682" CREATED="1766888951980" MODIFIED="1766889664991" LINK="chrome/chrome.mm#ID_388200123"/>
+<node TEXT="谷歌浏览器" POSITION="bottom_or_right" ID="ID_248317682" CREATED="1766888951980" MODIFIED="1766988664674" LINK="chrome/chrome.mm#ID_388200123"/>
 <node TEXT="火绒安全" POSITION="bottom_or_right" ID="ID_849324771" CREATED="1766826036941" MODIFIED="1766826051631" LINK="https://www.huorong.cn/">
 <node TEXT="安全设置" ID="ID_714784089" CREATED="1766843243209" MODIFIED="1766844646413">
 <node TEXT="常规设置" ID="ID_389931000" CREATED="1766843289792" MODIFIED="1766843293153">
