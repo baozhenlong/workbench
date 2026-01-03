@@ -295,7 +295,7 @@
 </node>
 </node>
 </node>
-<node ID="ID_1746838282" CREATED="1766399073676" MODIFIED="1766399073676"><richcontent TYPE="NODE">
+<node ID="ID_1746838282" CREATED="1766399073676" MODIFIED="1767419166906"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -303,11 +303,12 @@
   </head>
   <body>
     <div xmind-vk-rich-text-fragment-id="1766399070999-2006">
-      菜单栏 ➡️ 视图 ➡️ 工具提示
+      菜单栏 ➡️ 视图
     </div>
   </body>
 </html>
 </richcontent>
+<node TEXT="工具提示" ID="ID_1133947917" CREATED="1767419173567" MODIFIED="1767419175370">
 <node TEXT="☑️" ID="ID_931771369" CREATED="1766399185877" MODIFIED="1766399188294">
 <node ID="ID_1881558224" CREATED="1766399198527" MODIFIED="1766399198527"><richcontent TYPE="NODE">
 
@@ -322,6 +323,12 @@
   </body>
 </html>
 </richcontent>
+</node>
+</node>
+</node>
+<node TEXT="节点属性" ID="ID_939649271" CREATED="1767419176327" MODIFIED="1767419183377">
+<node TEXT="☑️" ID="ID_1542888217" CREATED="1767419183707" MODIFIED="1767419186462">
+<node TEXT="优化属性宽度" ID="ID_1837629484" CREATED="1767419187077" MODIFIED="1767419191303"/>
 </node>
 </node>
 </node>
@@ -2204,6 +2211,9 @@
 <node TEXT="右键单击 ➡️ 脚本 ➡️ 左键单击要执行的脚本" ID="ID_1122375101" CREATED="1766652575520" MODIFIED="1766652604655"/>
 </node>
 </node>
+</node>
+<node TEXT="查找" POSITION="top_or_left" ID="ID_102452251" CREATED="1767419390212" MODIFIED="1767419396135">
+<node TEXT="菜单栏 ➡️ 编辑 ➡️ 查找 ➡️ 在所有导图中查找并替换" ID="ID_957072263" CREATED="1767419405230" MODIFIED="1767419441093"/>
 </node>
 </node>
 </map>
