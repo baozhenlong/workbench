@@ -174,7 +174,7 @@
 </node>
 <node TEXT="界面" POSITION="bottom_or_right" ID="ID_590074409" CREATED="1766479112252" MODIFIED="1766479114623">
 <node TEXT="存储库栏" ID="ID_721438753" CREATED="1766479115779" MODIFIED="1766480561404">
-<node ID="ID_1861636539" CREATED="1766488506002" MODIFIED="1766488534120" MAX_WIDTH="20 cm"><richcontent TYPE="NODE">
+<node ID="ID_1861636539" CREATED="1766488506002" MODIFIED="1767862214920" MAX_WIDTH="20 cm"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -218,7 +218,7 @@
 </node>
 </node>
 <node TEXT="更改和历史记录" ID="ID_592509415" CREATED="1766487851928" MODIFIED="1766488235775">
-<node ID="ID_86321793" CREATED="1766488471160" MODIFIED="1766488482326"><richcontent TYPE="NODE">
+<node ID="ID_86321793" CREATED="1766488471160" MODIFIED="1767862236820"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -290,14 +290,14 @@
 <node TEXT="Ctrl + Shift + O" ID="ID_1667312701" CREATED="1766541388269" MODIFIED="1766541393361"/>
 </node>
 <node TEXT="发布仓库" ID="ID_73880551" CREATED="1766544938188" MODIFIED="1766544940691">
-<node ID="ID_54347272" CREATED="1766544943723" MODIFIED="1766544946699"><richcontent TYPE="NODE">
+<node ID="ID_54347272" CREATED="1766544943723" MODIFIED="1767862280733"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/界面/发布.png"/>
+    <img src="图片/存储库/发布仓库.png"/>
   </body>
 </html>
 </richcontent>
@@ -343,7 +343,7 @@
 <node TEXT="Ctrl + Shift + F" ID="ID_9963921" CREATED="1766541630871" MODIFIED="1766541639952"/>
 </node>
 </node>
-<node TEXT="分支" FOLDED="true" POSITION="bottom_or_right" ID="ID_1879236477" CREATED="1766541723732" MODIFIED="1766541725409">
+<node TEXT="分支" POSITION="bottom_or_right" ID="ID_1879236477" CREATED="1766541723732" MODIFIED="1766541725409">
 <node TEXT="创建分支" ID="ID_386119350" CREATED="1766541972532" MODIFIED="1766545746991">
 <node TEXT="左键单击 Current Branch ➡️ New Branch" ID="ID_784740992" CREATED="1766546367976" MODIFIED="1766546589760"/>
 <node TEXT="Ctrl + Shift + N" ID="ID_268828346" CREATED="1766541980296" MODIFIED="1766541987357"/>
@@ -366,14 +366,14 @@
 </node>
 <node TEXT="提交和评审更改" POSITION="bottom_or_right" ID="ID_1605915966" CREATED="1766547347965" MODIFIED="1766547357833">
 <node TEXT="选择如何显示差异" ID="ID_1403398103" CREATED="1766547360682" MODIFIED="1766547368777">
-<node ID="ID_1869941561" CREATED="1766547436082" MODIFIED="1766548841123"><richcontent TYPE="NODE">
+<node ID="ID_1869941561" CREATED="1766547436082" MODIFIED="1767862440788"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/选择如何显示差异.png"/>
+    <img src="图片/提交和评审更改/选择如何显示差异.png"/>
   </body>
 </html>
 </richcontent>
@@ -411,14 +411,14 @@
 </node>
 </node>
 <node TEXT="选择要包含在提交中的更改" ID="ID_1505326267" CREATED="1766547613424" MODIFIED="1766547620522">
-<node ID="ID_893210454" CREATED="1766547667861" MODIFIED="1766548857811"><richcontent TYPE="NODE">
+<node ID="ID_893210454" CREATED="1766547667861" MODIFIED="1767862455856"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/选择要包含在提交中的更改.png"/>
+    <img src="图片/提交和评审更改/选择要包含在提交中的更改.png"/>
   </body>
 </html>
 </richcontent>
@@ -435,21 +435,21 @@
 <node TEXT="Space" ID="ID_897013138" CREATED="1766541998140" MODIFIED="1766541999758"/>
 </node>
 </node>
-<node ID="ID_507903889" CREATED="1766547896025" MODIFIED="1766547932303" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
+</node>
+<node TEXT="创建部分提交" ID="ID_604938880" CREATED="1767862461680" MODIFIED="1767862462680">
+<node ID="ID_1164262052" CREATED="1767862463229" MODIFIED="1767862476285" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/创建部分提交.png"/>
+    <img src="图片/提交和评审更改/创建部分提交.png"/>
   </body>
 </html>
 </richcontent>
-<node TEXT="创建部分提交" ID="ID_970350900" CREATED="1766547935935" MODIFIED="1766547944191">
 <node TEXT="蓝色勾选" ID="ID_498576943" CREATED="1766547986978" MODIFIED="1766548032777">
 <node TEXT="表示将包含在提交中" ID="ID_1193297213" CREATED="1766548014966" MODIFIED="1766548051500"/>
-</node>
 </node>
 </node>
 </node>
@@ -462,14 +462,15 @@
 </node>
 </node>
 <node TEXT="编写提交消息并提交更改" ID="ID_1177416471" CREATED="1766489063238" MODIFIED="1766556532329">
-<node ID="ID_1341057714" CREATED="1766555078145" MODIFIED="1766555083350"><richcontent TYPE="NODE">
+<node TEXT="编写提交信息" ID="ID_1100395481" CREATED="1767862498713" MODIFIED="1767862517754">
+<node ID="ID_1341057714" CREATED="1766555078145" MODIFIED="1767862512819"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/编写提交消息.png"/>
+    <img src="图片/提交和评审更改/编写提交消息.png"/>
   </body>
 </html>
 </richcontent>
@@ -489,27 +490,31 @@
 <node TEXT="提交到分支" ID="ID_1040949755" CREATED="1766555546391" MODIFIED="1766555549570"/>
 </node>
 </node>
-<node ID="ID_1666067781" CREATED="1766555358807" MODIFIED="1766555368219" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
+</node>
+<node TEXT="自动创建提交消息和详细信息" ID="ID_1753554471" CREATED="1767862522836" MODIFIED="1767862535996">
+<node ID="ID_1666067781" CREATED="1766555358807" MODIFIED="1767862532668" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/自动创建提交消息和详细信息.png"/>
+    <img src="图片/提交和评审更改/自动创建提交消息和详细信息.png"/>
   </body>
 </html>
 </richcontent>
 <node TEXT="左键单击图标，根据所做的更改自动创建提交消息和详细信息" ID="ID_1715383057" CREATED="1766555370709" MODIFIED="1766555409106"/>
 </node>
-<node ID="ID_1736552083" CREATED="1766555482000" MODIFIED="1766555485629"><richcontent TYPE="NODE">
+</node>
+<node TEXT="将提交归于另一个作者" ID="ID_777054657" CREATED="1767862543411" MODIFIED="1767862588125">
+<node ID="ID_1736552083" CREATED="1766555482000" MODIFIED="1767862566972"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/将提交归于另一个作者.png"/>
+    <img src="图片/提交和评审更改/将提交归于另一个作者.png"/>
   </body>
 </html>
 </richcontent>
@@ -517,16 +522,17 @@
 </node>
 </node>
 </node>
-<node TEXT="储藏更改" POSITION="bottom_or_right" ID="ID_1858525140" CREATED="1766556123670" MODIFIED="1766556130396">
+</node>
+<node TEXT="储藏" POSITION="bottom_or_right" ID="ID_1858525140" CREATED="1766556123670" MODIFIED="1767862607556">
 <node TEXT="储藏更改" ID="ID_1054674856" CREATED="1766556138458" MODIFIED="1766556145987">
-<node ID="ID_305082221" CREATED="1766555602118" MODIFIED="1766556066813" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
+<node ID="ID_305082221" CREATED="1766555602118" MODIFIED="1767862673676" MAX_WIDTH="20 cm"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/储藏更改.png"/>
+    <img src="图片/储藏/储藏更改.png"/>
   </body>
 </html>
 </richcontent>
@@ -534,14 +540,14 @@
 </node>
 </node>
 <node TEXT="恢复或丢弃储藏的更改" ID="ID_1312018077" CREATED="1766556174774" MODIFIED="1766556317426">
-<node ID="ID_682438723" CREATED="1766556238340" MODIFIED="1766556247539"><richcontent TYPE="NODE">
+<node ID="ID_682438723" CREATED="1766556238340" MODIFIED="1767862656774" MAX_WIDTH="15 cm"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/恢复储藏的更改.png"/>
+    <img src="图片/储藏/恢复或丢弃储藏的更改.png"/>
   </body>
 </html>
 </richcontent>
@@ -551,14 +557,14 @@
 </node>
 <node TEXT="管理提交" POSITION="bottom_or_right" ID="ID_187480359" CREATED="1766556596261" MODIFIED="1766556599812">
 <node TEXT="撤销提交" ID="ID_795425861" CREATED="1766556920533" MODIFIED="1766556933049">
-<node ID="ID_1438365948" CREATED="1766557144895" MODIFIED="1766557162614" MAX_WIDTH="20 cm"><richcontent TYPE="NODE">
+<node ID="ID_1438365948" CREATED="1766557144895" MODIFIED="1767862713056" MAX_WIDTH="25 cm"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    <img src="图片/撤销提交.png"/>
+    <img src="图片/管理提交/撤销提交.png"/>
   </body>
 </html>
 </richcontent>

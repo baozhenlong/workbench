@@ -4,7 +4,7 @@
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
 <node TEXT="分支管理" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766715757118" LINK="分支.mm#ID_355261919" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES" CHILD_NODES_LAYOUT="TOPTOBOTTOM_RIGHT_AUTO"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.2">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="template:/A-仿XMind：稳重%20V3.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -1589,7 +1589,7 @@
   </body>
 </html>
 </richcontent>
-<node FOLDED="true" ID="ID_1873569902" CREATED="1766716777926" MODIFIED="1766716777926"><richcontent TYPE="NODE">
+<node ID="ID_1873569902" CREATED="1766716777926" MODIFIED="1766716777926"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1611,6 +1611,62 @@
   <body>
     <div xmind-vk-rich-text-fragment-id="1666885942088-6971">
       使得提交历史更加整洁， 是一条直线没有分叉
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_772221388" CREATED="1767861505955" MODIFIED="1767861505955"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861502316-7876">
+      原理
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_87740874" CREATED="1767861512292" MODIFIED="1767861512292"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861509250-2792">
+      把当前分支里面的每个 commit 取消掉，临时保存成 patch 文件存在 .git /rebase 目录下
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_151185482" CREATED="1767861517821" MODIFIED="1767861517821"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861515702-4962">
+      把当前分支更新到最新的 master 分支
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_416161510" CREATED="1767861521131" MODIFIED="1767861521131"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861519566-6437">
+      把 patch 文件应用到当前分支上
     </div>
   </body>
 </html>
@@ -1821,9 +1877,361 @@
 </richcontent>
 </node>
 </node>
+<node ID="ID_1503190083" CREATED="1767861554586" MODIFIED="1767861554586"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861530062-2200">
+      合并当前分支的多个 commit 记录
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1422777298" CREATED="1767861558746" MODIFIED="1767861558746"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861557845-5593">
+      git rebase -i startCommitID endCommitID
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_917290986" CREATED="1767861563801" MODIFIED="1767861563801"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861562466-1078">
+      参数
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1541072563" CREATED="1767861566803" MODIFIED="1767861566803"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861565925-8474">
+      endCommitID
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_117217816" CREATED="1767861569809" MODIFIED="1767861569809"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861568340-2898">
+      谨慎使用
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_471319904" CREATED="1767861572460" MODIFIED="1767861572460"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861571416-782">
+      默认表示从起始 commit 到最后一个
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_950425775" CREATED="1767861579485" MODIFIED="1767861579485"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861574168-2031">
+      指定表示从 endCommitID 后面的 commit 全部不要了
+    </div>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node FOLDED="true" ID="ID_1239955895" CREATED="1766719521359" MODIFIED="1766719521359"><richcontent TYPE="NODE">
+</node>
+</node>
+</node>
+<node ID="ID_1522529" CREATED="1767861586373" MODIFIED="1767861586373"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861583640-8513">
+      命令
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1601102877" CREATED="1767861591027" MODIFIED="1767861591027"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861590193-4875">
+      pick
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_322294918" CREATED="1767861593637" MODIFIED="1767861593637"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861592645-551">
+      使用这个 commit
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_860623505" CREATED="1767861597548" MODIFIED="1767861597548"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861596162-5965">
+      reword
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_18633067" CREATED="1767861599732" MODIFIED="1767861599732"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861598812-7318">
+      使用这个 commit，但需要修改 commit 信息
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1618410671" CREATED="1767861602732" MODIFIED="1767861602732"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861601638-362">
+      edit
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1524449272" CREATED="1767861605140" MODIFIED="1767861605140"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861604205-8434">
+      使用这个commit，但会停下来修改这个 commit
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1635184613" CREATED="1767861607269" MODIFIED="1767861607269"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861606441-2994">
+      可以修改文件内容、添加或删除文件等
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_224008630" CREATED="1767861613104" MODIFIED="1767861613104"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861610216-5048">
+      git add *.txt
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1786934133" CREATED="1767861616114" MODIFIED="1767861616114"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861615323-9030">
+      git commit -m &quot;&quot;
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1363275446" CREATED="1767861618771" MODIFIED="1767861618771"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861617881-5726">
+      git rebase --continue
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_1140103181" CREATED="1767861623549" MODIFIED="1767861623549"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861621555-9341">
+      squash
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_735199349" CREATED="1767861626558" MODIFIED="1767861626558"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861624684-6036">
+      使用这个 commit，但会将这个 commit 和前一个 commit 合并在一起
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_84860263" CREATED="1767861629741" MODIFIED="1767861629741"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861628120-5393">
+      fixup
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1668614028" CREATED="1767861631803" MODIFIED="1767861631803"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861630794-2914">
+      使用这个 commit，但会丢弃这个 commit 的 commit 信息
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node ID="ID_1754185276" CREATED="1767861634410" MODIFIED="1767861634410"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861633243-2233">
+      drop
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_1822410705" CREATED="1767861636369" MODIFIED="1767861636369"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861635467-8333">
+      不使用这个 commit
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="放弃合并，回到 rebase 操作之前的状态" ID="ID_1579559151" CREATED="1767861686103" MODIFIED="1767861687533">
+<node ID="ID_496793956" CREATED="1767861691680" MODIFIED="1767861691680"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861690900-523">
+      git rebase --abort
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_1239955895" CREATED="1766719521359" MODIFIED="1766719521359"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1949,6 +2357,34 @@
   </body>
 </html>
 </richcontent>
+</node>
+<node ID="ID_776563877" CREATED="1767861740197" MODIFIED="1767861740197"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861670279-3169">
+      继续应用余下的 patch 文件
+    </div>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_16911530" CREATED="1767861743121" MODIFIED="1767861743121"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1767861666985-9971">
+      git rebase --continue
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="查看分支的合并情况" ID="ID_1516038422" CREATED="1766719563456" MODIFIED="1766719564371">
