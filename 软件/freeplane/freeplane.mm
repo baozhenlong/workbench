@@ -4,7 +4,7 @@
     <bookmark nodeId="ID_100776476" name="根节点" opensAsRoot="true"/>
 </bookmarks>
 <node TEXT="freeplane" FOLDED="false" ID="ID_100776476" CREATED="1601720331676" MODIFIED="1766563896941" NodeVisibilityConfiguration="SHOW_HIDDEN_NODES"><hook NAME="MapStyle" background="#ecf4f9ff" zoom="1.2">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="file:/C:/Users/Administrator/Desktop/仿XMind：稳重%20V3.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#00ddddff,#dddd00ff,#dd0000ff,#00dd00ff,#dd0000ff,#7cddddff,#dddd7cff,#dd7cddff,#7cdd7cff,#dd7c7cff,#7c7cddff" show_tags="UNDER_NODES" show_note_icons="false" associatedTemplateLocation="file:/D:/github/workbench/软件/freeplane/模板.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" showTagCategories="false"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -14,9 +14,9 @@
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
 <font NAME="Sarasa Gothic PDF SC Semibold"/>
 <edge STYLE="horizontal" COLOR="#35455b"/>
-<stylenode LOCALIZED_TEXT="default" ID="ID_748547038" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID">
+<stylenode LOCALIZED_TEXT="default" ID="ID_748547038" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" TEXT_WRITING_DIRECTION="LEFT_TO_RIGHT" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID" CHILD_NODES_LAYOUT="AUTO">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_748547038" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="false" UNDERLINED="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/html"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/html"/>
@@ -63,6 +63,9 @@
 <icon BUILTIN="yes"/>
 <font NAME="Sarasa Gothic PDF SC Semibold"/>
 <edge STYLE="horizontal" COLOR="#35455b"/>
+</stylenode>
+<stylenode TEXT="代码" COLOR="#333333" BACKGROUND_COLOR="#f0f8ff" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#d1d5db">
+<font NAME="Consolas"/>
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
@@ -124,6 +127,71 @@
 <node TEXT="官网" POSITION="bottom_or_right" ID="ID_737779140" CREATED="1766398586669" MODIFIED="1766398605775" LINK="https://docs.freeplane.org/"/>
 <node TEXT="环境搭建" POSITION="bottom_or_right" ID="ID_1987649365" CREATED="1766398618292" MODIFIED="1766398621536">
 <node TEXT="下载" ID="ID_1209557289" CREATED="1766398631604" MODIFIED="1766398659334" LINK="https://sourceforge.net/projects/freeplane/files/"/>
+<node TEXT="插件" ID="ID_887398454" CREATED="1767932328575" MODIFIED="1767932330677">
+<node TEXT="插件" ID="ID_217461983" CREATED="1767932685463" MODIFIED="1767932689495">
+<node ID="ID_552765313" CREATED="1767932514834" MODIFIED="1767932514834"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Insert Inline Image
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="快捷键" ID="ID_503149387" CREATED="1767932697158" MODIFIED="1767932699636">
+<node TEXT="Ctrl + Shift + I" ID="ID_1626686921" CREATED="1767932700008" MODIFIED="1767932706209"/>
+</node>
+</node>
+</node>
+<node TEXT="下载" ID="ID_1306807798" CREATED="1767932489486" MODIFIED="1767932496420">
+<node TEXT="工具 ➡️ 附加组件" ID="ID_865060609" CREATED="1767932336253" MODIFIED="1767932343771">
+<node TEXT="搜索和安装" ID="ID_16064798" CREATED="1767932368328" MODIFIED="1767932371612">
+<node TEXT="访问附加组件页..." ID="ID_777770122" CREATED="1767932371964" MODIFIED="1767932383714">
+<node TEXT="搜索并下载" ID="ID_1952691208" CREATED="1767932464274" MODIFIED="1767932514513"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="安装" ID="ID_1270805978" CREATED="1767932526085" MODIFIED="1767932531651">
+<node TEXT="工具 ➡️ 附加组件" ID="ID_1721719464" CREATED="1767932531978" MODIFIED="1767932537578">
+<node TEXT="从移植位置安装附加组件" ID="ID_1459301264" CREATED="1767932540462" MODIFIED="1767932558255">
+<node TEXT="搜索" ID="ID_1986647076" CREATED="1767933098529" MODIFIED="1767933101572">
+<node TEXT="选择下载的 xxxx.mm" ID="ID_1863998814" CREATED="1767932563880" MODIFIED="1767932680147"/>
+</node>
+<node TEXT="安装并重启 freeplane" ID="ID_1652617438" CREATED="1767932627264" MODIFIED="1767932638615"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="样式" ID="ID_1059503648" CREATED="1768395746438" MODIFIED="1768395748839">
+<node TEXT="代码" ID="ID_1157712849" CREATED="1768395749341" MODIFIED="1768395754706">
+<node TEXT="节点颜色" ID="ID_1953042089" CREATED="1768395755728" MODIFIED="1768395884818">
+<node TEXT="节点文本颜色" ID="ID_15779074" CREATED="1768395885457" MODIFIED="1768395890666">
+<node TEXT="333333" ID="ID_1712437097" CREATED="1768396784302" MODIFIED="1768396784302"/>
+</node>
+<node TEXT="节点背景颜色" ID="ID_1706319746" CREATED="1768395893337" MODIFIED="1768395902147">
+<node TEXT="F0F8FF" ID="ID_1489574892" CREATED="1768396793823" MODIFIED="1768396793823"/>
+</node>
+</node>
+<node TEXT="节点字体" ID="ID_1292017551" CREATED="1768396691500" MODIFIED="1768396694046">
+<node TEXT="节点字体名称" ID="ID_231869036" CREATED="1768396694304" MODIFIED="1768396698549">
+<node TEXT="Consolas" ID="ID_535614680" CREATED="1768396710035" MODIFIED="1768396715791"/>
+</node>
+<node TEXT="节点字体大小" ID="ID_1736169033" CREATED="1768396703480" MODIFIED="1768396707579">
+<node TEXT="10" OBJECT="java.lang.Long|10" ID="ID_1137632841" CREATED="1768396707835" MODIFIED="1768396708943"/>
+</node>
+</node>
+<node TEXT="节点边框" ID="ID_1128602324" CREATED="1768396734799" MODIFIED="1768396739011">
+<node TEXT="颜色" ID="ID_10398961" CREATED="1768396740875" MODIFIED="1768396746741">
+<node TEXT="D1D5DB" ID="ID_317891905" CREATED="1768396770427" MODIFIED="1768396770427"/>
+</node>
+</node>
+</node>
+</node>
 <node ID="ID_607371449" CREATED="1766457629948" MODIFIED="1766457629948"><richcontent TYPE="NODE">
 
 <html>
@@ -383,7 +451,7 @@
   </body>
 </html>
 </richcontent>
-<node ID="ID_995447741" CREATED="1766457622182" MODIFIED="1766800575062"><richcontent TYPE="NODE">
+<node ID="ID_995447741" CREATED="1766457622182" MODIFIED="1768142309904"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -391,7 +459,23 @@
   </head>
   <body>
     <div xmind-vk-rich-text-fragment-id="1766457620281-6112">
-      600
+      60
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="图片宽度" ID="ID_376927443" CREATED="1768104107164" MODIFIED="1768104110041">
+<node ID="ID_827861178" CREATED="1766457622182" MODIFIED="1768142312625"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div xmind-vk-rich-text-fragment-id="1766457620281-6112">
+      60
     </div>
   </body>
 </html>

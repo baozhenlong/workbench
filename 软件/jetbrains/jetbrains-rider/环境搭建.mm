@@ -121,6 +121,7 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<node TEXT="官网" POSITION="bottom_or_right" ID="ID_180258586" CREATED="1767886747332" MODIFIED="1767886752350" LINK="https://www.jetbrains.com.cn/rider/"/>
 <node TEXT="安装" POSITION="bottom_or_right" ID="ID_388200123" CREATED="1601782742280" MODIFIED="1767865203931" LINK="../toolbox-app.mm#ID_1865707367"/>
 <node POSITION="top_or_left" ID="ID_1183558621" CREATED="1767863329807" MODIFIED="1767867991568"><richcontent TYPE="NODE">
 

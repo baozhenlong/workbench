@@ -14,9 +14,9 @@
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
 <font NAME="Sarasa Gothic PDF SC Semibold"/>
 <edge STYLE="horizontal" COLOR="#35455b"/>
-<stylenode LOCALIZED_TEXT="default" ID="ID_748547038" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID">
+<stylenode LOCALIZED_TEXT="default" ID="ID_748547038" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" NUMBERED="false" FORMAT="STANDARD_FORMAT" TEXT_ALIGN="DEFAULT" TEXT_WRITING_DIRECTION="LEFT_TO_RIGHT" MAX_WIDTH="10 cm" MIN_WIDTH="0 cm" VGAP_QUANTITY="2 pt" COMMON_HGAP_QUANTITY="14 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#808080" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="SOLID" CHILD_NODES_LAYOUT="AUTO">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_748547038" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10" BOLD="false" UNDERLINED="false" STRIKETHROUGH="false" ITALIC="false"/>
 <edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
 <richcontent TYPE="DETAILS" CONTENT-TYPE="plain/html"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/html"/>
@@ -64,6 +64,9 @@
 <font NAME="Sarasa Gothic PDF SC Semibold"/>
 <edge STYLE="horizontal" COLOR="#35455b"/>
 </stylenode>
+<stylenode TEXT="代码" COLOR="#333333" BACKGROUND_COLOR="#f0f8ff" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#d1d5d8">
+<font NAME="Consolas"/>
+</stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" COLOR="#ffffff" BACKGROUND_COLOR="#ffffff" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt">
 <font NAME="Sarasa Gothic PDF SC Semibold"/>
@@ -81,8 +84,8 @@
 <edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
-<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
 <edge STYLE="horizontal" COLOR="#35455b" WIDTH="1" DASH="SOLID"/>
+<font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#000000" BACKGROUND_COLOR="#e6e6e6" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="5 pt" SHAPE_VERTICAL_MARGIN="3 pt" BORDER_WIDTH="1 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#808080" BORDER_COLOR_ALPHA="0">
 <font NAME="Sarasa Gothic PDF SC Semibold" SIZE="10"/>
@@ -121,6 +124,5 @@
 </map_styles>
 </hook>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
-<node TEXT="" POSITION="bottom_or_right" ID="ID_388200123" CREATED="1601782742280" MODIFIED="1766805261158"/>
 </node>
 </map>
